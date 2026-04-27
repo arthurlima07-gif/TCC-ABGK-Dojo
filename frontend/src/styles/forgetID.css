@@ -1,0 +1,105 @@
+/* src/styles/forgetID.css */
+
+/* ============================
+   ESQUECI MEU CÓDIGO - ESTILO DO DOJÔ
+   ============================ */
+
+   .forget-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #b30000, #660000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Card central */
+  .forget-container {
+    width: 130vh;  
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  /* Logo */
+  .forget-container img {
+    height: 25vh;
+    width: 25vh;
+    margin-bottom: 1rem;
+  }
+  
+  /* Títulos */
+  .forget-container h2 {
+    color: #b30000;
+    font-weight: 700;
+  }
+  
+  .forget-container p {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  /* Input */
+  .forget-container .form-control {
+    border: 2px solid #e5933c;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  
+  .forget-container .form-control:focus {
+    border-color: #b30000;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  /* Botões */
+  .forget-btn {
+    font-weight: bold;
+    border: 2px solid #e5933c;
+    background-color: #b30000;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .forget-btn:hover {
+    background-color: #e5933c;
+    color: #000;
+    box-shadow: 0 0 10px #e5933c;
+  }
+  
+  /* Botão secundário */
+  .forget-btn-secondary {
+    font-weight: bold;
+    border: 2px solid #e5933c;
+    color: #b30000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .forget-btn-secondary:hover {
+    background-color: #e5933c;
+    color: #000;
+  }
+  
+  /* Mensagem */
+  .alert {
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  /* Animação */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  

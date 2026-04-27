@@ -1,0 +1,103 @@
+.teacher-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #8b0000 0%, #b71c1c 60%, #ff7043 100%);
+  color: white;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.teacher-logo{
+  width: 26vh;
+  height: 26vh;
+}
+
+.teacher-page .card {
+  background: #fff;
+  color: #111;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.teacher-page .btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.teacher-page .btn-outline-light:hover {
+  background: #fff;
+  color: #b71c1c;
+}
+
+.teacher-page table {
+  background: white;
+  color: #111;
+  border-radius: 8px;
+}
+
+.table-container {
+  max-height: 350px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+.card-totalalunos{
+  width: 30vh;
+  height: 20vh;
+  background-color: #222;
+  border-radius: 12px;
+  margin-left: 34%;
+  border: 2px solid #e5933c;
+}
+
+.card-mensalidades{
+  width: 30vh;
+  height: 20vh;
+  background-color: #222;
+  border-radius: 12px;
+  margin-left: 32%;
+  border: 2px solid #e5933c;
+}
+
+.filtragemalunos{
+  border-radius: 8px;
+  width: 33vh;
+  height: 7vh;
+  border: 2px solid #e5933c;
+}
+
+.form-control{
+  border: 2px solid #e5933c;
+}
+
+.botaoverturmas{
+  margin-left: 0%;
+  margin-top: 35px;
+  border: 2px solid #b71c1c;
+  border-radius: 8px;
+}
+
+.botaoverturmas:hover{
+  margin-left: 0%;
+  margin-top: 35px;
+  border: 2px solid #b71c1c;
+  border-radius: 8px;
+  background-color: #d1d1d1;
+  color: #b71c1c;
+}
+
+.botaosair-professor{
+  margin-left: 42%;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #e5933c;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.botaosair-professor:hover{
+   background-color: #444;
+  color: #fff;
+  border: 2px solid #e5933c;
+  font-weight: bold;
+}

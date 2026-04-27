@@ -1,0 +1,100 @@
+/* src/styles/cadastro.css */
+
+/* FUNDO */
+.cadastro-page {
+  height: 198vh;
+  width: 100%;
+  background: linear-gradient(135deg, #b30000, #660000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+}
+
+/* CONTAINER */
+.cadastro-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 750px;
+}
+
+/* CABEÇALHO */
+.cadastro {
+  height: 25vh;
+  width: 25vh;
+  border-radius: 8px;
+}
+
+.cadastro-container h2 {
+  color: #b30000;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.cadastro-container p {
+  color: #555;
+}
+
+/* SEÇÕES */
+.section-title {
+  color: #b30000;
+  font-weight: 600;
+  border-left: 4px solid #e5933c;
+  padding-left: 8px;
+  margin-bottom: 1rem;
+}
+
+/* INPUTS */
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #e5933c;
+  box-shadow: 0 0 5px rgba(229, 147, 60, 0.6);
+}
+
+/* BOTÕES */
+.btn-danger {
+  background-color: #b30000;
+  border: 2px solid #e5933c;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #660000;
+  border-color: #ffcc66;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.btn-outline-warning {
+  border: 2px solid #e5933c;
+  color: #b30000;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+  background-color: #e5933c;
+  color: #000;
+}
+
+/* ALERTAS */
+.alert-info {
+  background: #fff4e5;
+  border: 1px solid #e5933c;
+  color: #b30000;
+  font-weight: 500;
+}
+

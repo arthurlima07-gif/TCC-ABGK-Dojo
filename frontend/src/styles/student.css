@@ -1,0 +1,48 @@
+.student-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #b71c1c 0%, #ff7043 80%);
+  color: white;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.student-page .card {
+  border-radius: 12px;
+  border: none;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.student-page .card-header {
+  background: #222 !important; /* Preto */
+  color: #e5933c !important;
+  border-bottom: 1px solid #444;
+}
+
+.student-page .btn-danger {
+  background-color: #d32f2f;
+  border: none;
+}
+
+.student-page .btn-danger:hover {
+  background-color: #b71c1c;
+}
+
+.student-page .btn-outline-light{
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #e5933c;
+  font-weight: bold;
+}
+
+.student-page .btn-outline-light:hover{
+  background-color: #444;
+  color: #fff;
+  border: 2px solid #e5933c;
+  font-weight: bold;
+}
+
+.btneditardados{
+  color: #fff;
+}
